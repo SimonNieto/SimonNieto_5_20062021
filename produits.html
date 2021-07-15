@@ -1,12 +1,94 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orinoco - Nos produits</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+    <div class="container mx-auto">
+        <header class="border rounded bg-pink">
+            <nav class="navbar navbar-dark">
+                <a href="./index.html">
+                    <img class="h-20" src="./img/logo.png" alt="Logo">
+                </a>
+
+
+                <a href="panier.html">Mon Panier</a>
+            </nav>
+
+        </header>
+        <section class="flex border rounded bg-pink">
+
+            <!-- <div class="">
+                <img id="product-img" class="object-cover rounded productimg"
+                    src="http://oc-devweb-p5-api.herokuapp.com/images/teddy_1.jpg" alt="">
+            </div>
+            <div class="">
+                <h1 class="text-center">Ours en peluche "<span id="product-name">Norbert</span>"</h1>
+                <div class="">
+                    <p class="ml-2"><span class="">56 avis</span> - <span class="">12 produits en stock</span></p>
+                </div>
+                <p id="product-description" class="text-justify">Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class=""></div>
+                <h2 class="">Choisir la couleur de votre produit : </h2>
+                <div class="grid w-full gap-4 mt-4">
+                    
+                        <select class="form-select" aria-label="Default select example" id="product-select">
+                            <option selected>Choisir une couleur</option>
+                            
+                          </select>
+                
+                </div>
+                <button id="addToCart"
+                    class="w-full py-2 text-lg font-bold text-center text-white transition duration-150 transform bg-pink-600 rounded mb hover:scale-102">Ajouter
+                    au panier pour <span id="product-price">29.00 €</span></button>
+            </div> -->
+            <div class="panel-body flex">
+                <div class="col-md-6">
+                    <div class="pro-img-details">
+                        <img id="product-img" src="https://via.placeholder.com/550x380/FFB6C1/000000" alt="">
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <h2 class="pro-d-title" id="product-name"></h2>
+                    <p id="product-description">
+                    </p>
+
+                    <div class="">
+
+                    </div>
+
+                    <div class="m-bot15"> <strong>Price : </strong> <span id="product-price" class="pro-price">
+                            $300.00</span>
+                    </div>
+                    <h4 class="">Choisir la couleur de votre produit : </h4>
+                    <div class="grid w-full gap-4 mt-4">
+
+                        <select class="form-select" aria-label="Default select example" id="product-select">
+                            <option selected>Choisir une couleur</option>
+                        </select>
+
+                    </div>
+                    <div class="form-group"> <label>Quantity</label> <input type="quantiy" placeholder="1"
+                            class="form-control quantity"></div>
+                    <p> <button class="btn btn-round btn-danger" type="button"><i class="fa fa-shopping-cart"></i> Add
+                            to
+                            Cart</button></p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="./js/config.js"></script>
+    <script src="./js/produit.js"></script>
 </body>
+
 </html>

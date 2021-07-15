@@ -151,13 +151,12 @@ sup {
   top: -0.5em;
 }
 a {
-  color: #007bff;
-  text-decoration: none;
-  background-color: transparent;
+  color: inherit;
+  text-decoration: inherit;
 }
 a:hover {
-  color: #0056b3;
-  text-decoration: underline;
+  color: inherit;
+  text-decoration: inherit;
 }
 a:not([href]) {
   color: inherit;
@@ -1114,7 +1113,6 @@ pre code {
   .col-md-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
-    max-width: 50%;
   }
   .col-md-7 {
     -ms-flex: 0 0 58.333333%;
@@ -4473,7 +4471,6 @@ input[type="submit"].btn-block {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   min-height: 1px;
-  padding: 1.25rem;
 }
 .card-title {
   margin-bottom: 0.75rem;
